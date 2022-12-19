@@ -1,0 +1,13 @@
+python -m venv env
+env\scripts\activate
+python manage.py runserver
+
+python manage.py help
+python manage.py makemigrations
+python manage.py migrate
+
+pip install <module-name>
+pip uninstall <module-name>
+pip install <requirements.txt>
+pip uninstall <requirements.txt>
+pip freeze > requirements.txt
