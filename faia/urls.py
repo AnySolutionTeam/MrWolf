@@ -29,6 +29,7 @@ urlpatterns = [
     path("support/", landing.views.support, name="support"),
     #path("db/", landing.views.db, name="db"),
     #path("admin/", admin.site.urls),
+    path('', include('accounts.urls')),
 ]
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
